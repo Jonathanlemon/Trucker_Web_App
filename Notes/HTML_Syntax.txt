@@ -1,0 +1,17 @@
+HTML Syntax
+
+HTML Purpose:
+	- Creation and structuring of web pages
+
+Syntax:
+	<!DOCTYPE html>  -> defines document type as HTML5
+	Closing syntax => </syntax>
+	<html> -> root element of html page
+	<head> -> holds meta information about HTML webpage
+	<title> -> specifies HTML Title page
+	<body> -> defines document's body (acts as container for visible  contents
+	<h1 - h6> -> define HTML headings (most to least important)
+	
+	<p> -> paragraph element (Closing not needed)
+	
+	

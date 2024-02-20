@@ -1,0 +1,42 @@
+Understanding PHP for Report Generation
+
+
+Primary Role in Project:
+To enable the communication/flow of data from the databases and display it within the various screens of the web api
+
+PHP Capabilities:
+• PHP can generate dynamic page content and collect form data
+• PHP can create, open, read, write, delete, and close files on a server
+• PHP can add, delete, or update data within databases
+• PHP can be used to control user-access
+• PHP is capable of encrypting data
+
+
+Syntax:
+
+Ex:
+	<?php
+	// PHP code goes here
+	?> 
+
+- All PHP must begin with <?php and end with ?>
+
+PHP Follows Essentially HTML syntax
+Ex:
+	<!DOCTYPE html>
+	<html>
+	<body>
+	
+	<?php
+	$color = "red";
+	 echo"My shoes are ". $color . "<br>";
+	echo"My house is ". $COLOR . "<br>";
+	?>
+	
+	</body>
+	</html>
+
+	
+	
+PHP Interaction with HTML:
+	- Provides dynamic web page generation, providing mutable information (sourced via databases) that would otherwise remain static within an html web page

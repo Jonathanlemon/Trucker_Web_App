@@ -1,0 +1,135 @@
+body {
+   background-color: whitesmoke;
+   overflow-y: inherit;
+}
+
+.dark-mode {
+   background-color: black;
+ }
+
+.dark-mode .scroll_box{
+   background-color: black;
+}
+
+p {
+   color: solid black;
+}
+
+.nav {
+   border: 0.5px solid transparent;
+   opacity: .95;
+}
+
+.nav_default {
+   border-color: #f8eeee;
+   background-color: #7f7f7f;
+   background-size: cover;
+   width: 90%;
+   margin: auto;
+}
+
+.nav_listing {
+   list-style: none;
+   padding: 15px;
+}
+
+.nav_listing li{
+   height: auto;
+}
+
+.navbox {
+   display: flex;
+   align-items: center;
+}
+
+.navbox img {
+   width: 6%;
+}
+
+li {
+   display: inline;
+}
+
+li a {
+   display: block;
+   float: right;
+   color: black;
+   text-align: center;
+   padding: 10px 20px;
+   text-decoration: none;
+}
+
+li a:hover {
+   color: aqua;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+.content {
+   display: flex;
+   width: 100%;
+}
+
+.base {
+   background-color: #7f7f7f;
+   flex: 40%;
+   width: 40%;
+   height: 600px;
+   padding: 10px;
+   margin: 4% 4%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.scroll_box {
+   height: 80%;
+   width: 90%;
+   border: 5px solid black;
+   display: block;
+   padding: 3px;
+   margin: 0px;
+   overflow-y: auto;
+   background-color: whitesmoke;
+}
+
+.scroll_list {
+   width: 100%;
+   height: fit-content;
+}
+
+.driver_entry {
+   display: flex;
+   background-color: #7f7f7f;
+   padding: 3px;
+   margin-bottom: 16px;
+   border: 2px solid black;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+
+.application_entry {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-evenly;
+   background-color: #7f7f7f;
+   padding: 3px;
+   margin-bottom: 16px;
+   border: 2px solid black;
+}
+
+.application_entry p {
+   display: inline
+}
+
+.application_entry button {
+   margin-left: auto;
+}

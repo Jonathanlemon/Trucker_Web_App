@@ -1,0 +1,195 @@
+body {
+   background-color: whitesmoke;
+}
+
+h1 {
+   color: black;
+}
+
+p {
+   color: black;
+}
+
+.center {
+   background: rgb(160, 159, 159);
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+}
+
+.nav {
+   border: 0.5px solid transparent;
+   opacity: .95;
+}
+
+.nav_default {
+   border-color: #f8eeee;
+   background-color: #7f7f7f;
+   background-size: cover;
+   width: 90%;
+   margin: auto;
+}
+
+.nav_listing {
+   list-style: none;
+   padding: 15px;
+}
+
+.image {
+   display: flex;
+   align-items: center;
+}
+
+.image img {
+   width: 6%;
+}
+
+li {
+   display: inline;
+}
+
+li a {
+   display: block;
+   float: right;
+   color: black;
+   text-align: center;
+   padding: 10px 20px;
+   text-decoration: none;
+}
+
+li b {
+   float: right;
+   position: absolute;
+   top: 2%;
+   right: 1.5%;
+}
+
+li a:hover {
+   color: aqua;
+}
+
+li b:hover {
+   color: aqua;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+/* .info {
+   background-color: rgb(191, 191, 191);
+   width: auto;
+   height: 450px;
+   padding: 10px;
+   margin: 2% 4%;
+   margin-right: 4%;
+   margin-bottom: 4%;
+} */
+
+.card {
+   background-color: #7f7f7f;
+   width: auto;
+   height: 450px;
+   padding: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   margin: 2% 4%;
+   margin-right: 4%;
+   margin-bottom: 4%;
+}
+
+.indent {
+   padding: 10px 10px;
+}
+.card_detail {
+   display: inline-flex;
+   vertical-align: middle;
+   background: #7f7f7f;
+   border: #cfcfcfd4;
+   width: auto;
+   border-width: 1px;
+   color: black;
+}
+
+/* Icon related styling */
+/* .icon-button {
+   margin-left: 50%;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 45px;
+   height: 45px;
+   color: #333333;
+   background: #dddddd;
+   border: none;
+   outline: none;
+   border-radius: 50%;
+}
+
+.icon-button:hover {
+   cursor: pointer;
+   background: #cccccc;
+}
+
+.icon-button__badge {
+   position: absolute;
+   top: -8px;
+   right: -5px;
+   width: 25px;
+   height: 25px;
+   font-size: 13;
+   background: red;
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+} */
+
+
+.dropbtn {
+   background-color: #3498DB;
+   color: white;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ /* Dropdown button on hover & focus */
+ .dropbtn:hover, .dropbtn:focus {
+   background-color: #2980B9;
+ }
+ 
+ /* The container <div> - needed to position the dropdown content */
+ .dropdown {
+   position: relative;
+   display: inline-block;
+ }
+ 
+ /* Dropdown Content (Hidden by Default) */
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f1f1f1;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ 
+ /* Links inside the dropdown */
+ .dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+ }
+ 
+ /* Change color of dropdown links on hover */
+ .dropdown-content a:hover {background-color: #ddd;}
+ 
+ /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+ .show {display:block;}

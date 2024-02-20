@@ -1,0 +1,11 @@
+SQL Notes:
+
+select - fetches columns from db
+select distinct - fetches unique entries for columns
+where - provides condition to filter query results
+update - update table entries
+delete - delete table entries
+union - combine query results from multiple selects
+
+SQL will be called by php to interact with SQL server.
+PHP will be called via forms to be executed on EC2 instance.

@@ -1,0 +1,131 @@
+body {
+   background-color: whitesmoke;
+}
+
+h1 {
+   color: black;
+}
+
+h2 {
+   color: black;
+}
+
+p {
+   color: solid black;
+}
+
+.center {
+   background: rgb(160, 159, 159);
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+}
+
+.nav {
+   border: 0.5px solid transparent;
+   opacity: .95;
+}
+
+.nav_default {
+   border-color: #f8eeee;
+   background-color: #cfcfcf;
+   background-size: cover;
+}
+
+.nav_listing {
+   list-style: none;
+   padding: 15px;
+}
+
+.image {
+   display: flex;
+   align-items: center;
+}
+
+.image img {
+   width: 6%;
+}
+
+li {
+   display: inline;
+}
+
+li a {
+   display: block;
+   float: right;
+   color: black;
+   text-align: center;
+   padding: 10px 20px;
+   text-decoration: none;
+}
+
+li .logout {
+   display: block;
+   float: right;
+   position: absolute;
+   top: 2%;
+   right: 1.5%;
+}
+
+li a:hover {
+   color: aqua;
+}
+
+li b:hover {
+   color: aqua;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+.content {
+   display: flex;
+   width: 90%;
+}
+
+.base {
+   background-color: rgb(191, 191, 191);
+   flex: 40%;
+   width: 40%;
+   height: 600px;
+   padding: 10px;
+   margin: 4% 4%;
+}
+
+.icon-button {
+   margin-left: 50%;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 50px;
+   height: 50px;
+   color: #333333;
+   background: #dddddd;
+   border: none;
+   outline: none;
+   border-radius: 50%;
+}
+
+.icon-button:hover {
+   cursor: pointer;
+   background: #cccccc;
+}
+
+.icon-button__badge {
+   position: absolute;
+   top: -10px;
+   right: -10px;
+   width: 30px;
+   height: 30px;
+   background: red;
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+}

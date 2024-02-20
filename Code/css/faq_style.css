@@ -1,0 +1,47 @@
+
+body {
+    background-color: whitesmoke;
+    overflow-y: inherit;
+    text-align: center;
+    height: 100%;
+}
+
+li {
+    list-style-type: none;
+    background-color: eee;
+    background-color: #cfcfcf;
+    font-size: 20pt;
+    padding-bottom: 10pt;
+    padding-left: 50pt;
+    padding-right: 50pt;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 40pt;
+}
+
+#homeDiv {
+    height:70px;
+    background-color: rgb(160, 159, 159);
+    text-align: center;
+    padding-top: 10pt;
+}
+
+#homeBtn {
+    color: black;
+    width: 100%;
+}
+
+#homeBtn:hover {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: whitesmoke;
+}

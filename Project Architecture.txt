@@ -1,0 +1,21 @@
+Project Architecture
+********************
+
+Files:
+
+3 separate home pages
+1 for each role
+
+driver_home_page.html
+sponsor_home_page.html
+admin_home_page.html
+
+Merge the files into one homepage after functionality is complete
+
+profile_page.html
+faq.html
+
+signup.php - Server code for creating an account
+config.php - Database connection code
+login.php - Server code for logging in and submitting data
+

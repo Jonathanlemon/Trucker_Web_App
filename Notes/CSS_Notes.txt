@@ -1,0 +1,69 @@
+CSS Notes
+
+
+CSS Purpose: 
+	- Defines styles for web pages
+		○ Layout
+		○ Design 
+
+Example syntax:
+
+body { 
+	background-color: lightblue;
+}
+
+h1 {
+	color: white;
+	text-align: center
+}
+
+p {
+	font-family: verdana
+	font-size: 20px
+}
+
+__________________________________
+
+Syntax breakdown:
+
+	   / Declaration 1\     / Declaration 2\
+h1       {  color   :    blue;    font-size     :    12px;  }
+ ^                 ^             ^              ^                     ^
+Selector      |             |              |                   Value    
+               Property    Value     Property
+
+
+
+1.) TEXT COLOR
+	
+Syntax:
+		<!DOCTYPE html>
+		<html>
+		<head>
+		<style>
+		
+	Section Responsible for Declaring Header Styles
+		h1
+		{
+			color:red;
+		}
+		
+		h2
+		{
+			color:green;
+		}
+		
+		</style>
+		</head>
+		<body>
+		
+		<h1>
+		GEEKS FOR GEEKS   -> Inserting Header 1 Text
+		</h1>
+		<h2>
+		TEXT FORMATTING   -> Inserting Header 2 Text
+		</h2>
+		</body>
+		</html>
+
+

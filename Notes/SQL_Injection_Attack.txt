@@ -1,0 +1,44 @@
+SQL Injection Attack
+
+Monday, September 19, 2022
+10:47 PM
+
+What is it?
+Attack consisting of an insertion of an SQL query using the input data from a client to its application.
+
+Consequences?
+Successful SQL injections can read sensitive data from the database, make harmful alterations to its data, or issue commands to the OS
+
+Highly common with PHP applications due to the prevalence of older functional interfaces
+
+
+Injection attack types:
+1.) In-band SQLi
+2.) Inferential SQLi
+3.) Out-of-band SQLi
+
+1.) Error Based SQL injection
+2.) Union-Based Query (combining of tables)
+
+How to prevent SQL injection attacks?
+
+1.) Use Prepared statements (parameterized queries)
+	- Within PHP use PDO with strong typed parameterized queries
+		○ i.e. use of bindParam()
+		public PDOStatement::bindParam(
+		    string|int $param,
+		    mixed &$var,
+		    int $type = PDO::PARAM_STR,
+		    int $maxLength = 0,
+		    mixed $driverOptions = null
+		): bool
+	
+		From <https://www.php.net/manual/en/pdostatement.bindparam.php> 
+	- This method of binding helps avoid concatenating SQL statements that could otherwise be modified by malicious users
+		
+
+2.) Use Properly constructed Stored Procedures
+	- Since input parameters are always treated as the actual text value, instead of as a command, this helps mitigate the potential of injection attacks
+
+3.) Enforce Least Privilege: Only provide certain users the bare minimum access/permissions to complete their actions (i.e. use the application)
+
